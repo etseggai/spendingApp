@@ -3,7 +3,6 @@ import java.util.*;
 public class Frequency extends Item{
 
     private int frequency; 
-    private int index = 0;
 
     public Frequency(String name, double price){
         super(name, price);
