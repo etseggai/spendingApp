@@ -47,8 +47,15 @@ public class Main
       }
 
 
-       
-
+    /**
+     * Reads each line in a file and converts each line into an Item object
+     * 
+     * Preconditions:
+     * - filename is intializied and it can be found/located  
+     * Postconditions:
+     * - Each line in filename is converted into an Item object
+     * @param filename - A string that contains all the lines in the textfile
+     */    
     public static void readPurchases(String filename){
         try(BufferedReader reader = new BufferedReader(new FileReader(filename))){
             String line;
